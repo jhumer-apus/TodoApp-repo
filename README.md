@@ -8,4 +8,4 @@ It also has a delete feature which deletes a specific task you want to remove.
 
 Go to the terminal command and type "npm run dev".
 Wait for url to show.
-Copy "http://localhost:3000/" and paste it on the adress bar of your browser
+Copy "http://localhost:3000/" and paste it on the adress bar of your browser.
