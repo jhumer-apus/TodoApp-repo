@@ -14,11 +14,11 @@ Copy "http://localhost:3000/" and paste it on the adress bar of your browser.
 
 ![image](https://user-images.githubusercontent.com/62890789/178205214-25b4721a-0ea1-4fc6-a4ee-5fc9d6cdb2a8.png)
 
-#Added on the list
+# Added on the list
 
 ![image](https://user-images.githubusercontent.com/62890789/178205418-5ac50181-1bb0-4c85-8078-6332288de47d.png)
 
-#Remove task
+# Remove task
 
 Click on the task you want to remove
 
