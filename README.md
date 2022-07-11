@@ -1,16 +1,33 @@
-# Vue 3 + TypeScript + Vite
+# Todo web-app created with Vue3 + Typescript + Vite + TailwindCSS
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Todo web-app is a web application that list all of your tasks. 
+Todo web-app has an input feature that ask for the user's inputs(task) and add it on the list after hitting enter key or clicking the plus sign symbol. 
+It also has a delete feature which deletes a specific task you want to remove.
 
-## Recommended IDE Setup
+# To run
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+Go to the terminal command and type "npm run dev".
+Wait for url to show.
+Copy "http://localhost:3000/" and paste it on the adress bar of your browser.
 
-## Type Support For `.vue` Imports in TS
+# Sample on how to use Todo web-app
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+![image](https://user-images.githubusercontent.com/62890789/178205214-25b4721a-0ea1-4fc6-a4ee-5fc9d6cdb2a8.png)
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+# Added on the list
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+![image](https://user-images.githubusercontent.com/62890789/178205418-5ac50181-1bb0-4c85-8078-6332288de47d.png)
+
+# Remove task
+
+Click on the task you want to remove
+
+![image](https://user-images.githubusercontent.com/62890789/178205588-86ced0fc-1615-49d0-b12b-c0b3be34e59c.png)
+
+Click the waste-basket icon and the task is removed
+
+![image](https://user-images.githubusercontent.com/62890789/178205788-1aba17ee-f53b-42a0-9cc3-8b674536215a.png)
+
+You can also select all the tasks by clicking checkbox with the label of "Select All" on the left then click the waste-basket icon to remove all
+
+![image](https://user-images.githubusercontent.com/62890789/178206482-2e513a61-eaa7-4eb1-ba11-50f0e387c340.png)
